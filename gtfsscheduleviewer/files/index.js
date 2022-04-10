@@ -605,7 +605,7 @@ function callbackDisplayTripRows(data, responseCode, tripId) {
   html += svgTag("/ttablegraph?height=100&trip=" + encodeURIComponent(tripId), "height='115' width='100%'");
   var bottombarDiv = document.getElementById("bottombar");
   bottombarDiv.style.display = "block";
-  bottombarDiv.style.height = "175px";
+  bottombarDiv.style.height = "250px";
   bottombarDiv.innerHTML = html;
   sizeRouteList();
 }
